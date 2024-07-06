@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sca_main{
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+}
+.sca_heading{
+    height: 20vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sca_heading h1{
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: cyan;
+    font-size: 35px;
+}
+.sca_cards{
+    height:100vh ;
+    width: 100%;
+    /* background-color: aquamarine; */
+    box-sizing:border-box;
+    padding: 30px 220px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sca_ind_cards{
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(66, 66, 66);
+    margin: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+}
+.sca_ind_cards:hover{
+    background-color: rgba(110, 109, 109, 0.898);
+    
+}
+.sca_img{
+    height: 8vh;
+    width: 8vh;
+    font-size: 60px;
+    color: cyan;
+    border:  4px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    /* box-sizing: border-box; */
+} 
+.sca_ind_cards p{
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 10px 0px;
+}

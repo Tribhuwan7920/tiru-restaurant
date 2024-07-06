@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cf_main{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cf_images{
+    height: 90vh;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url("contact.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0.9);
+    position: absolute;
+    z-index: 10;
+}
+.cf_content{
+    position: relative;
+    z-index: 20;
+    height: 70vh;
+    width: 80vh;
+    background-color: rgba(26, 27, 26, 0.276);
+    /* text-align: center; */
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 50px;
+    border: 6px solid white;
+}
+.cf_content:hover{
+    background-color: rgba(33, 33, 33, 0.483);
+}
+.cf_content h1{
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: cyan;
+    font-size: 35px;
+    margin-left: 130px;
+}
+.cf_content p{
+    margin: 20px 0px 5px 30px;
+    color: white;
+    font-size: 20px;
+}
+.cf_content input{
+    height: 6vh;
+    width: 45vh;
+    margin: 5px 30px;
+    border-radius: 50px ;
+}
+.cf_content button{
+    display: block;
+    height: 6vh;
+    width: 20vh;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    cursor:pointer;
+}

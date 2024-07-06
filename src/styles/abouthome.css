@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.ah_main{
+    height: 79vh;
+    width: 100%;
+    /* background-color: cornflowerblue; */
+    background-image: url("background_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ah_content{
+    height: 40vh;
+    width: 50vw;
+    /* background-color: coral; */
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.ah_content h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: cyan;
+    font-family: "Pacifico", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin: 30px;
+    text-shadow: 5px 5px black;
+}
+.ah_content p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+}

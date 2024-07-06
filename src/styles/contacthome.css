@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.ch_main{
+    height: 60vh;
+    width: 100%;
+    background-color: aqua;
+    background-image: url("contact_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: grayscale(0.4);
+}

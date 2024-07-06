@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hi_cards{
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(163, 112, 211, 0.705);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hi_ind_cards{
+    height: 40vh;
+    width: 140vh;
+    /* background-color: chocolate; */
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+}
+.hi_ind_image{
+    height: 35vh;
+    width: 45vh;
+    /* background-color: chartreuse; */
+    margin: 0px;
+}
+.hi_ind_image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+    outline: 4px solid black;
+    outline-offset: 5px;
+}
+.hi_ind_content{
+    height: 35vh;
+    width: 70vh;
+    /* background-color: blueviolet; */
+    margin-left: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.hi_ind_content h1{
+    color: cyan;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.hi_ind_content p{
+    font-size: 15px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+.hi_ind_content button{
+    background-color: rgb(71, 57, 136) ;
+    height: 5vh;
+    width: 18vh;
+    color: white;
+    font-size: 18px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 20px;
+    cursor: pointer;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}

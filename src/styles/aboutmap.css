@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.am_main{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.am_images{
+    background-color: blueviolet;
+    height: 55vh;
+    width: 80vw;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.am_images img{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(0.7);
+}
+.ig_img{
+    position: absolute;
+    left: 65vw;
+    border-radius: 50px;
+}

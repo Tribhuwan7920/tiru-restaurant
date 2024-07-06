@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav_main{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(71, 57, 136);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_logo{
+    height: 100%;
+    width: 45vh;
+    /* background-color: brown; */
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.nav_link{
+    height: 100%;
+    width: 65vh;
+    /* background-color: rgb(39, 177, 18); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.nav_logo h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: cyan;
+    text-transform: capitalize;
+}
+.nav_ind_link{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+.nav_ind_link:hover{
+    color: rgb(195, 194, 194);
+    text-decoration: underline;
+}

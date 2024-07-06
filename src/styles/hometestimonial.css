@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.test_main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(130, 49, 205, 0.706);
+}
+.test_heading{
+    height: 20vh;
+    width: 100%;
+    /* background-color: chartreuse; */
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 45px;
+}
+.test_heading h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: navy;
+    text-transform: capitalize;
+}
+.test_content{
+    height:80vh;
+    width: 100%;
+    /* background-color:rgba(130, 49, 205, 0.706); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.test_items{
+    outline: 4px solid black;
+    outline-offset: 5px;
+    height: 65vh;
+    width: 70vw;
+    /* background-color: crimson; */
+    border-radius: 45px;
+    overflow: hidden;
+}
+.test_images{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(64, 255, 0); */
+    background-image: url("background_3.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.test_info{
+    height: 45vh;
+    width: 100%;
+    background-color: rgba(130, 49, 205, 0.706);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.test_info h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: cyan;
+    text-transform: capitalize;
+    margin: 20px 0px;
+}
+.test_info p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+    /* text-transform: capitalize; */
+    margin: 20px 0px;
+}
+.test_info button{
+    background-color: rgb(71, 57, 136) ;
+    height: 5vh;
+    width: 18vh;
+    color: white;
+    font-size: 18px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 20px;
+    cursor: pointer;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}

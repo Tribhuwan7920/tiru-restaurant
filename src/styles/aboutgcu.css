@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.agc_main{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+}
+.agc_heading{
+    height: 20vh;
+    width: 100%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.agc_heading h1 {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: blue;
+}
+.agc_link{
+    height: 70vh ;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.agc_ind_link{
+    height: 50vh;
+    width: 20vw;
+    background-color: rgb(90, 88, 88);
+    border-radius: 40px;
+    margin: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.agc_icons{
+    height: 50%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    font-size: 90px;
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.agc_ind_link h1{
+    margin: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: cyan;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.agc_ind_link p{
+    margin: 20px;
+    font-size: 14px;
+    text-transform: lowercase;
+    color: white;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

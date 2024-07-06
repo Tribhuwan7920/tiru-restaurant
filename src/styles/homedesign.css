@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hd_main{
+    height: 60vh;
+    width: 100%;
+    background-color:  rgba(130, 49, 205, 0.705);
+    position: relative;
+}
+.first_image{
+    position: absolute;
+    top: 40px;
+    height: 36vh;
+    width: 50vh;
+    border-radius: 40px;
+    left: 110px;
+}
+.second_images{
+    position: absolute;
+    top: 150px;
+    height: 36vh;
+    width: 50vh;
+    border-radius: 40px;
+    left: 390px;
+    z-index: 2;
+}
+.third_images{
+    position: absolute;
+    top: 50px;
+    height: 36vh;
+    width: 50vh;
+    border-radius: 40px;
+    left: 45vw;
+}
+.forth_images{
+    position: absolute;
+    top: 150px;
+    height: 36vh;
+    width: 50vh;
+    border-radius: 40px;
+    left: 65vw;
+}

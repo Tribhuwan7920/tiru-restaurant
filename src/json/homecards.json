@@ -1,0 +1,72 @@
+[
+    {
+        "id" : 1,
+        "images" : "/food_5.jpg",
+        "name" : "Tikka masala",
+        "description" : "Indian recipes are so complex, requiring many different spices and lots of prep and cooking time, that Indian food is not something we can easily whip up ourselves.",
+        "cost" : "500"
+    },
+    {
+        "id" : 2,
+        "images" : "/food_6.jpg",
+        "name" : "Tikka masala",
+        "description" : "Indian recipes are so complex, requiring many different spices and lots of prep and cooking time, that Indian food is not something we can easily whip up ourselves.",
+        "cost" : "400"
+    },
+    {
+        "id" : 3,
+        "images" : "/food_7.jpg",
+        "name" : "Tikka masala",
+        "description" : "Indian recipes are so complex, requiring many different spices and lots of prep and cooking time, that Indian food is not something we can easily whip up ourselves.",
+        "cost" : "350"
+    },
+    {
+        "id" : 4,
+        "images" : "/food_8.jpg",
+        "name" : "Tikka masala",
+        "description" : "Indian recipes are so complex, requiring many different spices and lots of prep and cooking time, that Indian food is not something we can easily whip up ourselves.",
+        "cost" : "1000"
+    },
+    {
+        "id" : 5,
+        "images" : "/food_9.jpg",
+        "name" : "Tikka masala",
+        "description" : "Indian recipes are so complex, requiring many different spices and lots of prep and cooking time, that Indian food is not something we can easily whip up ourselves.",
+        "cost" : "1050"
+    },
+    {
+        "id" : 6,
+        "images" : "/food_10.jpg",
+        "name" : "Tikka masala",
+        "description" : "Indian recipes are so complex, requiring many different spices and lots of prep and cooking time, that Indian food is not something we can easily whip up ourselves.",
+        "cost" : "670"
+    },
+    {
+        "id" : 7,
+        "images" : "/food_11.jpg",
+        "name" : "Tikka masala",
+        "description" : "Indian recipes are so complex, requiring many different spices and lots of prep and cooking time, that Indian food is not something we can easily whip up ourselves.",
+        "cost" : "125"
+    },
+    {
+        "id" : 8,
+        "images" : "/food_12.jpg",
+        "name" : "Tikka masala",
+        "description" : "Indian recipes are so complex, requiring many different spices and lots of prep and cooking time, that Indian food is not something we can easily whip up ourselves.",
+        "cost" : "340"
+    },
+    {
+        "id" : 9,
+        "images" : "/food_13.jpg",
+        "name" : "Tikka masala",
+        "description" : "Indian recipes are so complex, requiring many different spices and lots of prep and cooking time, that Indian food is not something we can easily whip up ourselves.",
+        "cost" : "790"
+    },
+    {
+        "id" : 10,
+        "images" : "/food_14.jpg",
+        "name" : "Tikka masala",
+        "description" : "Indian recipes are so complex, requiring many different spices and lots of prep and cooking time, that Indian food is not something we can easily whip up ourselves.",
+        "cost" : "800"
+    }
+]

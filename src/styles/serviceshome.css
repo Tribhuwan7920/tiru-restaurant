@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sh_main{
+    height: 90vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    background-image: url("food_8.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sh_images{
+    height: 70vh;
+    width: 70vw;
+    background-color: aqua;
+    background-image:url("serviceshome.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 4px solid rgb(67, 66, 66);
+    border-radius: 50px;
+    position: relative;
+}
+.sh_images h1{
+    position: absolute;
+    top: 35vh;
+    left: 55vh;
+    font-family: "Margarine", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    font-style: normal;
+    color: rgb(84, 38, 139);
+}
